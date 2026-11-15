@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-14T05:54:00.746485+00:00",
+  "last_updated": "2026-11-15T05:56:09.735767+00:00",
   "curated": {
     "total": 1210,
-    "alive": 562
+    "alive": 559
   },
   "full": {
-    "total": 54405,
-    "alive": 31334
+    "total": 54494,
+    "alive": 31566
   },
   "sources": {
     "total": 210,
