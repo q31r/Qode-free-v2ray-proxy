@@ -10,6 +10,12 @@ todo.txt
 new.py
 new.txt
 
+analyzer.py
+ratings.json
+
+backups/
+scan_nodes.py
+
 __pycache__/
 *.pyc
 *.py[cod]
@@ -25,4 +31,5 @@ Thumbs.db
 *.log
 
 data/*
-scan_nodes.py
+xray-core/*
+!xray-core/.gitkeep
