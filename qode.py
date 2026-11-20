@@ -19,6 +19,8 @@ OUTPUT_FULL = "nodes_full.txt"
 OUTPUT_CURATED = "nodes_curated.txt"
 OUTPUT_FULL_B64 = "nodes_full_Base64.txt"
 OUTPUT_CURATED_B64 = "nodes_curated_Base64.txt"
+OUTPUT_IRANCELL = "irancell.txt"
+OUTPUT_MCI = "mci.txt"
 STATS_FILE = "stats.json"
 REPORT_DIR = "report"
 GEOIP_DB = "GeoLite2-Country.mmdb"
@@ -451,6 +453,15 @@ def save_base64(configs: list[str], output_file: str):
         f.write(encoded)
     print(f"→ {output_file} saved (Base64).")
 
+def count_lines(path: str) -> int:
+    if not os.path.exists(path):
+        return 0
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return sum(1 for l in f if l.strip() and not l.startswith("#"))
+    except Exception:
+        return 0
+
 def download_and_filter(sources: list[str], label: str, workers: int) -> tuple[list[dict], dict]:
     started_at = time.time()
     print("=" * 60)
@@ -576,6 +587,11 @@ def main():
         stats["full"]["alive"] = full_report["alive_count"]
         stats["sources"]["successful"] = full_report["sources_ok"]
         stats["sources"]["failed"] = full_report["sources_failed"]
+
+    stats["personal"] = {
+        "irancell": {"total": count_lines(OUTPUT_IRANCELL)},
+        "mci": {"total": count_lines(OUTPUT_MCI)},
+    }
 
     with open(STATS_FILE, "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=2, ensure_ascii=False)
