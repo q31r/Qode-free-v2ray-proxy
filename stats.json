@@ -1,23 +1,26 @@
 {
-  "last_updated": "2026-11-22T06:12:11.279420+00:00",
+  "last_updated": "2026-11-22T21:39:03.531880+00:00",
   "curated": {
     "total": 1210,
-    "alive": 553
+    "alive": 552
   },
   "full": {
-    "total": 54330,
-    "alive": 31641
+    "total": 54404,
+    "alive": 31599
   },
   "sources": {
     "total": 210,
-    "successful": 186,
-    "failed": 24
+    "successful": 187,
+    "failed": 23
   },
   "personal": {
     "irancell": {
-      "total": 200
+      "total": 197
     },
     "mci": {
+      "total": 0
+    },
+    "wifi": {
       "total": 0
     }
   }
