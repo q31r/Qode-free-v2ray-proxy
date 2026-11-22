@@ -21,6 +21,7 @@ OUTPUT_FULL_B64 = "nodes_full_Base64.txt"
 OUTPUT_CURATED_B64 = "nodes_curated_Base64.txt"
 OUTPUT_IRANCELL = "irancell.txt"
 OUTPUT_MCI = "mci.txt"
+OUTPUT_WIFI = "wifi.txt"
 STATS_FILE = "stats.json"
 REPORT_DIR = "report"
 GEOIP_DB = "GeoLite2-Country.mmdb"
@@ -591,6 +592,7 @@ def main():
     stats["personal"] = {
         "irancell": {"total": count_lines(OUTPUT_IRANCELL)},
         "mci": {"total": count_lines(OUTPUT_MCI)},
+        "wifi": {"total": count_lines(OUTPUT_WIFI)},
     }
 
     with open(STATS_FILE, "w", encoding="utf-8") as f:

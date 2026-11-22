@@ -9,6 +9,7 @@ on:
       - 'stats.json'
       - 'irancell.txt'
       - 'mci.txt'
+      - 'wifi.txt'
       - '*.md'
 
   schedule:

@@ -16,6 +16,8 @@ Qode is a fully automated, open-source proxy and V2Ray subscription collector. I
 
 Whether you need a massive list of raw configs for scraping or a highly vetted list for stable daily browsing, Qode provides tested and categorized **Free V2Ray Configs**, **VLESS**, **VMess**, **Trojan**, **Shadowsocks**, and **Hysteria2** servers.
 
+> 🔗 **Project page:** [q31r.ir/notebook/collections/qode](https://q31r.ir/notebook/collections/qode)
+
 ### 📤 Available Outputs (Proxy Subscriptions)
 
 Every day, GitHub Actions automatically updates the following proxy lists. You can use the raw link of any file as a direct subscription link in your favorite client (like v2rayN, v2rayNG, Nekoray, or Clash).
@@ -37,6 +39,7 @@ Every day, GitHub Actions automatically updates the following proxy lists. You c
 |---|---|---|
 | [mci.txt](https://raw.githubusercontent.com/q31r/Qode-free-v2ray-proxy/main/mci.txt) | Plain Text | Proxies specifically tested and verified for MCI (Hamrah-e Aval) network. |
 | [irancell.txt](https://raw.githubusercontent.com/q31r/Qode-free-v2ray-proxy/main/irancell.txt) | Plain Text | Proxies specifically tested and verified for Irancell network. |
+| [wifi.txt](https://raw.githubusercontent.com/q31r/Qode-free-v2ray-proxy/main/wifi.txt) | Plain Text | Proxies specifically tested and verified for Wi-Fi (HiWeb) network. |
 
 > **Note:** All output files are automatically sorted first by priority ports (for better stability) and then by TCP latency (for faster connections). So the best and fastest servers always appear at the top of every list.
 
@@ -99,6 +102,8 @@ Qode یک جمع‌آوری‌کننده سابسکریپشن و پروکسی V2
 
 چه به یک لیست بزرگ از کانفیگ‌های خام برای اسکرپینگ نیاز داشته باشید و چه به یک لیست باکیفیت و تست‌شده برای وب‌گردی پایدار روزانه، Qode سرورهای **V2Ray رایگان**، **VLESS**، **VMess**، **Trojan**، **Shadowsocks** و **Hysteria2** را به صورت تست‌شده و دسته‌بندی‌شده در اختیار شما قرار می‌دهد.
 
+> 🔗 **صفحه اختصاصی پروژه:** [q31r.ir/notebook/collections/qode](https://q31r.ir/notebook/collections/qode)
+
 ### 📤 خروجی‌های موجود (سابسکریپشن‌های پروکسی)
 
 هر روز، GitHub Actions به طور خودکار لیست‌های پروکسی زیر را به‌روزرسانی می‌کند. شما می‌توانید از لینک Raw هر فایل به عنوان لینک سابسکریپشن مستقیم در کلاینت محبوب خود (مثل v2rayN، v2rayNG، Nekoray یا Clash) استفاده کنید.
@@ -120,6 +125,7 @@ Qode یک جمع‌آوری‌کننده سابسکریپشن و پروکسی V2
 |---|---|---|
 | [mci.txt](https://raw.githubusercontent.com/q31r/Qode-free-v2ray-proxy/main/mci.txt) | متن ساده | پروکسی‌های تست‌شده و تأییدشده مخصوص شبکه همراه اول (MCI). |
 | [irancell.txt](https://raw.githubusercontent.com/q31r/Qode-free-v2ray-proxy/main/irancell.txt) | متن ساده | پروکسی‌های تست‌شده و تأییدشده مخصوص شبکه ایرانسل. |
+| [wifi.txt](https://raw.githubusercontent.com/q31r/Qode-free-v2ray-proxy/main/wifi.txt) | متن ساده | پروکسی‌های تست‌شده و تأییدشده مخصوص شبکه وای‌فای (های‌وب). |
 
 > **نکته:** تمام فایل‌های خروجی ابتدا بر اساس پورت‌های اولویت‌دار (برای پایداری بیشتر) و سپس بر اساس تأخیر TCP (برای اتصال سریع‌تر) مرتب می‌شوند. بنابراین بهترین و سریع‌ترین سرورها همیشه در بالای هر لیست قرار می‌گیرند.
 
