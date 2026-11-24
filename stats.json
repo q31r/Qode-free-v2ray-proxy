@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-11-23T07:03:27.718318+00:00",
+  "last_updated": "2026-11-24T09:28:37.679995+00:00",
   "curated": {
     "total": 1210,
-    "alive": 548
+    "alive": 545
   },
   "full": {
-    "total": 54483,
-    "alive": 31596
+    "total": 53466,
+    "alive": 30486
   },
   "sources": {
     "total": 210,
-    "successful": 186,
-    "failed": 24
+    "successful": 187,
+    "failed": 23
   },
   "personal": {
     "irancell": {
