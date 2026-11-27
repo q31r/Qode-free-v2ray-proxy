@@ -1,7 +1,7 @@
 {
   "label": "curated",
-  "timestamp": "2026-11-26T07:53:32.817824+00:00",
-  "duration_seconds": 138.04,
+  "timestamp": "2026-11-27T07:53:18.452517+00:00",
+  "duration_seconds": 107.14,
   "sources_total": 36,
   "sources_ok": 13,
   "sources_failed": 23,
@@ -9,7 +9,7 @@
   "filtered_out_invalid": 18,
   "deduplicated_count": 1210,
   "duplicates_removed": 859,
-  "alive_count": 550,
+  "alive_count": 552,
   "failed_sources": [
     {
       "id": 14,
@@ -22,8 +22,8 @@
       "error": "http_404"
     },
     {
-      "id": 15,
-      "tag": "Nu Backbone 15",
+      "id": 18,
+      "tag": "Delta Group 18",
       "error": "http_404"
     },
     {
@@ -32,23 +32,13 @@
       "error": "http_404"
     },
     {
-      "id": 19,
-      "tag": "Beta Cluster 19",
-      "error": "http_404"
-    },
-    {
-      "id": 18,
-      "tag": "Delta Group 18",
-      "error": "http_404"
-    },
-    {
       "id": 20,
       "tag": "Xi Access 20",
       "error": "http_404"
     },
     {
-      "id": 23,
-      "tag": "Alpha Node 23",
+      "id": 19,
+      "tag": "Beta Cluster 19",
       "error": "http_404"
     },
     {
@@ -57,13 +47,18 @@
       "error": "http_404"
     },
     {
+      "id": 23,
+      "tag": "Alpha Node 23",
+      "error": "http_404"
+    },
+    {
       "id": 22,
       "tag": "Xi Access 22",
       "error": "http_404"
     },
     {
-      "id": 25,
-      "tag": "Epsilon Set 25",
+      "id": 15,
+      "tag": "Nu Backbone 15",
       "error": "http_404"
     },
     {
@@ -72,18 +67,18 @@
       "error": "http_404"
     },
     {
-      "id": 27,
-      "tag": "Nu Backbone 27",
-      "error": "http_404"
-    },
-    {
       "id": 26,
       "tag": "Eta Bundle 26",
       "error": "http_404"
     },
     {
-      "id": 29,
-      "tag": "Mu Uplink 29",
+      "id": 25,
+      "tag": "Epsilon Set 25",
+      "error": "http_404"
+    },
+    {
+      "id": 27,
+      "tag": "Nu Backbone 27",
       "error": "http_404"
     },
     {
@@ -92,13 +87,8 @@
       "error": "http_404"
     },
     {
-      "id": 31,
-      "tag": "Rho Bridge 31",
-      "error": "http_404"
-    },
-    {
-      "id": 33,
-      "tag": "Delta Group 33",
+      "id": 29,
+      "tag": "Mu Uplink 29",
       "error": "http_404"
     },
     {
@@ -107,13 +97,18 @@
       "error": "http_404"
     },
     {
+      "id": 31,
+      "tag": "Rho Bridge 31",
+      "error": "http_404"
+    },
+    {
       "id": 32,
       "tag": "Alpha Node 32",
       "error": "http_404"
     },
     {
-      "id": 35,
-      "tag": "Rho Bridge 35",
+      "id": 33,
+      "tag": "Delta Group 33",
       "error": "http_404"
     },
     {
@@ -124,6 +119,11 @@
     {
       "id": 36,
       "tag": "Xi Access 36",
+      "error": "http_404"
+    },
+    {
+      "id": 35,
+      "tag": "Rho Bridge 35",
       "error": "http_404"
     }
   ]
